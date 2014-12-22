@@ -1,0 +1,11 @@
+languageCode: "en-ca"
+title: "Avalon C++ Users"
+
+baseurl: "~acu"
+
+params:
+        author: "Jonathan Anderson"
+        tagline: "Locally-sourced proficiency"
+
+permalinks:
+        post: "/post/:year/:month/:day/:title/"

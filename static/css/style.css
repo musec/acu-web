@@ -1,0 +1,81 @@
+body
+{
+  font-family: "Avenir", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+#main-title
+{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/NLA_Spear3_tango7174.jpg");
+  background-size: cover;
+
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+
+#main > h1
+{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9a/NLA_Spear3_tango7174.jpg");
+  background-size: cover;
+  background-position: left center;
+
+  padding: .5em;
+  position: relative;
+  top: -20px;
+
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+
+.author
+{
+  font-weight: bold;
+}
+
+.event.summary
+{
+  font-size: 90%;
+}
+
+.summary .title
+{
+  font-weight: bold;
+}
+
+.sidebar
+{
+  background: rgb(248, 248, 248);
+  border: solid 1px rgb(231, 231, 231);
+  padding: .5em;
+}
+
+.event.summary .summary
+{
+  padding: .5em;
+}
+
+.post .header
+{
+  padding-bottom: .5em;
+  width: 100%;
+}
+
+.post .header time
+{
+  font-style: italic;
+}
+
+.post.summary .summary
+{
+  padding: .5em;
+}
+
+footer
+{
+  padding: .5em;
+  text-align: right;
+}
+
+footer .copyright
+{
+  font-style: italic;
+}

@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+
+<div class="container" role="main">
+  <div class="jumbotron" id="main-title">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.tagline }}</p>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>Recent posts</h2>
+
+      {{ range first 3 (where .Data.Pages "Section" "post") }}
+        {{ .Render "summary" }}
+      {{ end }}
+    </div>
+
+    <div class="col-md-4">
+      {{ partial "upcoming-events" . }}
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+
+<section id="main">
+  <h1>{{ .Title }}</h1>
+
+  <div class="post container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="header">
+          <!--
+          {{ if isset .Params "author" }}
+            <div class="author">{{ .Params.author }}</div>
+          {{ end }}
+          -->
+
+          {{ if eq .Section "post" }}
+            <time class="post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+          {{ end }}
+        </div>
+
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        {{ partial "recent-posts" . }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="meta">
+{{ partial "footer.html" . }}
+</section>

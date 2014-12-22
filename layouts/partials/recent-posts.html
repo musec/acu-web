@@ -1,0 +1,12 @@
+<div class="sidebar">
+  <h4>Recent posts</h4>
+
+  {{ range first 3 (where .Site.Recent "Section" "post") }}
+    <div class="post summary">
+      <div class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+      <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+
+      <div class="summary">{{ .Summary }}</div>
+    </div>
+  {{ end }}
+</div>
