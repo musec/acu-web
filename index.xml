@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Avalon C&#43;&#43; Users</title>
+    <link>~acu/</link>
+    <description>Recent content on Avalon C&#43;&#43; Users</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    
+    
+    <lastBuildDate>Sat, 31 Jan 2015 00:00:00 UTC</lastBuildDate>
+    <atom:link href="~acu/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First meeting</title>
+      <link>/~acu/event/2015/01/first-meeting/</link>
+      <pubDate>Sat, 31 Jan 2015 00:00:00 UTC</pubDate>
+      
+      <guid>/~acu/event/2015/01/first-meeting/</guid>
+      <description>&lt;p&gt;Tentatively planned for mid–late January 2015.
+Vote for your favourite lunchtime slot via our
+&lt;a href=&#34;http://doodle.com/n2nc9q5ii8x2c9ea&#34;&gt;Doodle poll&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The topic of this session hasn&amp;rsquo;t been set, but it will likely be something
+to do with new features introduced in C++11.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gauging interest</title>
+      <link>/~acu/post/2014/12/20/gauging-interest/</link>
+      <pubDate>Sat, 20 Dec 2014 00:00:00 UTC</pubDate>
+      
+      <guid>/~acu/post/2014/12/20/gauging-interest/</guid>
+      <description>&lt;p&gt;Would you like to grow in your C++ (and general programming) proficiency?
+The Avalon C++ Users group will provide a forum for programmers to meet,
+learn new things and exchange ideas about writing good code
+(especially in C++!).&lt;/p&gt;
+
+&lt;p&gt;We are tentatively planning on having our first meeting in
+mid–late January 2015.
+This would be a lunchtime session, with a 15-minute talk followed by Q&amp;amp;A,
+with ample amounts of both formal discussion and informal chat.
+The event will be open to all, but we especially welcome local academics,
+graduate students and professional programmers.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in attending, please fill out our
+&lt;a href=&#34;http://doodle.com/n2nc9q5ii8x2c9ea&#34;&gt;Doodle poll&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/~acu/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>/~acu/about/</guid>
+      <description>&lt;p&gt;The Avalon C++ Users group exists to local C++ knowledge among a community
+of academics, students and professionals on the Avalon Peninsula
+of Newfoundland.
+We explore topics of interest to C++ programmers, including both specific
+language features and generally-applicable development practices from a C++
+perspective.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>/~acu/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>/~acu/events/</guid>
+      <description>&lt;p&gt;We aim to meet approximately monthly throughout the year.
+Once we&amp;rsquo;ve actually scheduled a few meetings, we&amp;rsquo;ll list them here.&lt;/p&gt;
+
+&lt;p&gt;This would be a lunchtime session, with a 15-minute talk followed by Q&amp;amp;A,
+with ample amounts of both formal discussion and informal chat.
+The event will be open to all, but we especially welcome local academics,
+graduate students and professional programmers.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

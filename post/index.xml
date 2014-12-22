@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Avalon C&#43;&#43; Users</title>
+    <link>~acu/post/</link>
+    <description>Recent content in Posts on Avalon C&#43;&#43; Users</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    
+    
+    <lastBuildDate>Sat, 20 Dec 2014 00:00:00 UTC</lastBuildDate>
+    <atom:link href="~acu/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gauging interest</title>
+      <link>/~acu/post/2014/12/20/gauging-interest/</link>
+      <pubDate>Sat, 20 Dec 2014 00:00:00 UTC</pubDate>
+      
+      <guid>/~acu/post/2014/12/20/gauging-interest/</guid>
+      <description>&lt;p&gt;Would you like to grow in your C++ (and general programming) proficiency?
+The Avalon C++ Users group will provide a forum for programmers to meet,
+learn new things and exchange ideas about writing good code
+(especially in C++!).&lt;/p&gt;
+
+&lt;p&gt;We are tentatively planning on having our first meeting in
+mid–late January 2015.
+This would be a lunchtime session, with a 15-minute talk followed by Q&amp;amp;A,
+with ample amounts of both formal discussion and informal chat.
+The event will be open to all, but we especially welcome local academics,
+graduate students and professional programmers.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in attending, please fill out our
+&lt;a href=&#34;http://doodle.com/n2nc9q5ii8x2c9ea&#34;&gt;Doodle poll&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

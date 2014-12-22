@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Avalon C&#43;&#43; Users</title>
+    <link>~acu/event/</link>
+    <description>Recent content in Events on Avalon C&#43;&#43; Users</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ca</language>
+    
+    
+    <lastBuildDate>Sat, 31 Jan 2015 00:00:00 UTC</lastBuildDate>
+    <atom:link href="~acu/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First meeting</title>
+      <link>/~acu/event/2015/01/first-meeting/</link>
+      <pubDate>Sat, 31 Jan 2015 00:00:00 UTC</pubDate>
+      
+      <guid>/~acu/event/2015/01/first-meeting/</guid>
+      <description>&lt;p&gt;Tentatively planned for mid–late January 2015.
+Vote for your favourite lunchtime slot via our
+&lt;a href=&#34;http://doodle.com/n2nc9q5ii8x2c9ea&#34;&gt;Doodle poll&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The topic of this session hasn&amp;rsquo;t been set, but it will likely be something
+to do with new features introduced in C++11.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
