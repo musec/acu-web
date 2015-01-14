@@ -53,13 +53,18 @@ body
   padding: .5em;
 }
 
-.post .header
+.event .header, .post .header
 {
   padding-bottom: .5em;
   width: 100%;
 }
 
-.post .header time
+.event .speaker
+{
+  font-weight: bold;
+}
+
+.header time
 {
   font-style: italic;
 }
@@ -67,6 +72,22 @@ body
 .post.summary .summary
 {
   padding: .5em;
+}
+
+#main .map
+{
+  float: right;
+}
+
+.map .caption
+{
+  font-size: small;
+  font-weight: bold;
+}
+
+.map .caption:after
+{
+  content: ':';
 }
 
 footer

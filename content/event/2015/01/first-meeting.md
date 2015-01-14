@@ -1,13 +1,19 @@
-+++
-date = "2015-01-31"
-title = "First meeting"
-+++
+---
+date: 2015-01-19
+title: Move semantics in C++11
+location: EN-4006
+speaker: Jonathan Anderson
+map:
+  label: S. J. Carew Building
+  search: S.J.+Carew+Building
+  zoom: 14
+---
 
-Tentatively planned for mid–late January 2015.
-Vote for your favourite lunchtime slot via our
-[Doodle poll](http://doodle.com/n2nc9q5ii8x2c9ea)!
+In our first meeting, we'll look at C++11's R-value references and how they are
+used to reduce copying without bare pointer tricks.
 
 <!--more-->
 
-The topic of this session hasn't been set, but it will likely be something
-to do with new features introduced in C++11.
+After the talk there'll be time for discussion, including how we want to run
+things and a call for volunteers for future talks.
+Bring a lunch, and we'll see you there!

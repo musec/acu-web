@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+<section id="main">
+  <h1>{{ .Title }}</h1>
+
+  <div class="event container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="header">
+          <div class="speaker">{{ .Params.speaker }}</div>
+          <time>{{ .Date.Format "Mon, Jan 2, 2006 @ 3:04" }}</time>
+          <div class="location">{{ .Params.location }}</div>
+        </div>
+
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        {{ with .Params.map }}
+          {{ partial "map" . }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
