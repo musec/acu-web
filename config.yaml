@@ -1,7 +1,7 @@
 languageCode: "en-ca"
 title: "Avalon C++ Users"
 
-baseurl: "~acu"
+baseurl: "http://www.engr.mun.ca/~acu/"
 
 params:
         author: "Jonathan Anderson"
