@@ -4,7 +4,9 @@
   {{ range first 3 (where .Site.Recent "Section" "event") }}
     <div class="event summary">
       <div class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-      <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+      <div class="speaker">{{ .Params.speaker }}</div>
+      <time>{{ .Date.Format "Mon, Jan 2, 2006 @ 3:04" }}</time>
+      <div class="location">{{ .Params.location }}</div>
 
       <div class="summary">{{ .Summary }}</div>
     </div>
