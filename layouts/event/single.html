@@ -3,16 +3,23 @@
 <section id="main">
   <h1>{{ .Title }}</h1>
 
-  <div class="event container">
+  <div class="event container"
+       itemscope itemtype="http://schema.org/EducationEvent">
+
+    <meta itemprop="name" content="{{ .Title }}"/>
+    <meta itemprop="url" content="{{ .Permalink }}"/>
+
     <div class="row">
       <div class="col-md-8">
         <div class="header">
-          <div class="speaker">{{ .Params.speaker }}</div>
-          <time>{{ .Date.Format "Mon, Jan 2, 2006 @ 3:04" }}</time>
-          <div class="location">{{ .Params.location }}</div>
+          <div class="speaker" itemprop="performer">{{ .Params.speaker }}</div>
+          <time itemprop="startDate">
+            {{ .Date.Format "Mon, Jan 2, 2006 @ 3:04" }}
+          </time>
+          <div class="location" itemprop="location">{{ .Params.location }}</div>
         </div>
 
-        <div class="content">
+        <div class="content" itemprop="description">
           {{ .Content }}
         </div>
       </div>
