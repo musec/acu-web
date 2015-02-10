@@ -6,8 +6,8 @@ author: Jonathan Anderson
 ---
 
 We now have a working mailing list!
-If you'd like to receive updates about our meetings, email "subscribe" to
-[avalon-cpp-request@lists.mun.ca](mailto:avalon-cpp-request@lists.mun.ca).
+If you'd like to receive updates about our meetings,
+[email "subscribe avalon-cpp" to listserv@morgan.ucs.mun.ca](mailto:listserv@morgan.ucs.mun.ca?subject=subscribe%20avalon-cpp&body=subscribe%20avalon-cpp).
 
 <!--more-->
 
