@@ -1,17 +1,17 @@
 ---
 date: 2015-02-23T12:00:00-03:30
-title: Smart pointers
+title: Smart pointers in C++11
 location: TBA
 map:
   label: S. J. Carew Building
   search: S.J.+Carew+Building
   zoom: 14
-speaker: TBA
+speaker: Brian Kidney
 
 ---
 
-Things are still tentative, but it looks like our next meeting is likely to be
-on the 23rd of February and feature a talk about smart pointers in C++11.
+Our next meeting, on February 23rd, will feature a talk about
+smart pointers in C++11.
 
 <!--more-->
 
