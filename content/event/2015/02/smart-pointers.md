@@ -1,7 +1,7 @@
 ---
 date: 2015-02-23T12:00:00-03:30
 title: Smart pointers in C++11
-location: TBA
+location: EN-4003 (Faculty Dining Room)
 map:
   label: S. J. Carew Building
   search: S.J.+Carew+Building
