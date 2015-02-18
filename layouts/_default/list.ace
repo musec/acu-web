@@ -5,11 +5,16 @@
 
   .container
     .row
-    {{ range .Data.Pages }}
-      {{ if eq .Section "post" }}
-        {{ .Render "summary" }}
-      {{ end }}
-    {{ end }}
+      .col-md-8
+        {{ range .Data.Pages }}
+          {{ if eq .Section "post" }}
+            {{ .Render "summary" }}
+          {{ end }}
+          hr
+        {{ end }}
+
+      .col-md-4
+        {{ partial "upcoming-events" . }}
 
 #meta
   {{ partial "footer.html" . }}
