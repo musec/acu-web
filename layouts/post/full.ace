@@ -1,0 +1,4 @@
+.post
+  {{ .Render "header" }}
+
+  .content {{ .Content }}

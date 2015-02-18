@@ -1,15 +1,11 @@
 <div class="post summary">
-  <h3>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-  </h3>
-
-  <div class="author">
-    {{ .Params.author }}
-  </div>
-
-  <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+  {{ .Render "header" }}
 
   <div class="summary">
     {{ .Summary }}
+  </div>
+
+  <div class="readmore">
+    <a href="{{ .RelPermalink }}">read more...</a>
   </div>
 </div>

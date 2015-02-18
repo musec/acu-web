@@ -41,6 +41,17 @@ body
   font-weight: bold;
 }
 
+.post .readmore
+{
+  font-style: italic;
+  margin-left: .5em;
+}
+
+.post .readmore a:before
+{
+  content: '// ';
+}
+
 .sidebar
 {
   background: rgb(248, 248, 248);
@@ -48,7 +59,7 @@ body
   padding: .5em;
 }
 
-.event.summary .summary
+.event .summary
 {
   padding: .5em;
 }
@@ -69,7 +80,7 @@ body
   font-style: italic;
 }
 
-.post.summary .summary
+.post .summary, .recent-posts .post .content
 {
   padding: .5em;
 }

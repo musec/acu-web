@@ -1,0 +1,8 @@
+h3
+  a href="{{ .Permalink }}" {{ .Title }}
+
+.author
+  {{ .Params.author }}
+
+time
+  {{ .Date.Format "Mon, Jan 2, 2006" }}
