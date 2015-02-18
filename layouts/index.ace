@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+
+.container role="main"
+  .jumbotron#main-title
+    h1 {{ .Site.Title }}
+    p {{ .Site.Params.tagline }}
+
+.container
+  .row
+    .col-md-8.recent-posts
+      h2 Recent posts
+
+      {{ range $index, $post := first 5 (where .Data.Pages "Section" "post") }}
+        hr
+
+        {{ if eq $index 0 }}
+          {{ $post.Render "full" }}
+        {{ else }}
+          {{ $post.Render "summary" }}
+        {{ end }}
+      {{ end }}
+
+    .col-md-4
+      {{ partial "upcoming-events" . }}
+
+{{ partial "footer.html" . }}

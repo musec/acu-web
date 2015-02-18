@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+#main
+  h1 {{ .Title }}
+
+  .event.container itemscope="" itemtype="http://schema.org/EducationEvent"
+
+    meta itemprop="name" content="{{ .Title }}"
+    meta itemprop="url" content="{{ .Permalink }}"
+
+    .row
+      .col-md-8
+        .header
+          .speaker itemprop="performer" {{ .Params.speaker }}
+          time itemprop="startDate"
+            {{ .Date.Format "Mon, Jan 2, 2006 @ 3:04" }}
+
+          .location itemprop="location" {{ .Params.location }}
+
+        .content itemprop="description"
+          {{ .Content }}
+
+      .col-md-4
+        {{ with .Params.map }}
+          {{ partial "map" . }}
+        {{ end }}
+
+{{ partial "footer.html" . }}

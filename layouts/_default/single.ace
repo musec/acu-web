@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+#main
+  h1 {{ .Title }}
+
+  .container
+    .row
+      .col-md-8
+        .content {{ .Content }}
+
+      .col-md-4
+        {{ partial "upcoming-events" . }}
+
+#meta
+  {{ partial "footer.html" . }}

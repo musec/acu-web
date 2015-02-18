@@ -1,0 +1,16 @@
+.sidebar
+  h4 Upcoming events
+
+  {{ range first 3 (where .Site.Recent "Section" "event") }}
+    .event.summary
+      .title
+        a href="{{ .Permalink }}" {{ .Title }}
+
+      .speaker {{ .Params.speaker }}
+
+      time {{ .Date.Format "Mon, Jan 2, 2006 @ 3:04" }}
+
+      .location {{ .Params.location }}
+
+      .summary {{ .Summary }}
+  {{ end }}

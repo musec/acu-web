@@ -1,0 +1,7 @@
+.post.summary
+  {{ .Render "header" }}
+
+  .summary {{ .Summary }}
+
+  .readmore
+    a href="{{ .RelPermalink }}" read more...

@@ -1,0 +1,12 @@
+.sidebar
+  h4 Recent posts
+
+  {{ range first 3 (where .Site.Recent "Section" "post") }}
+    .post.summary
+      .title
+        a href="{{ .Permalink }}" {{ .Title }}
+
+      time {{ .Date.Format "Mon, Jan 2, 2006" }}
+
+      .summary {{ .Summary }}
+  {{ end }}

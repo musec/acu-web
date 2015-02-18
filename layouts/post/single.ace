@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+#main
+  h1 {{ .Title }}
+
+  .post.container
+    .row
+      .col-md-8
+        .header
+          {{ if isset .Params "author" }}
+            .author {{ .Params.author }}
+          {{ end }}
+
+          {{ if eq .Section "post" }}
+            time.post-list {{ .Date.Format "Mon, Jan 2, 2006" }}
+          {{ end }}
+
+        .content {{ .Content }}
+
+      .col-md-4
+        {{ partial "recent-posts" . }}
+
+section#meta
+  {{ partial "footer.html" . }}
