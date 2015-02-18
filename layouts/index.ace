@@ -7,18 +7,46 @@
 
 .container
   .row
-    .col-md-8.recent-posts
-      h2 Recent posts
+    .col-md-8
+      p
+        |
+          We share local C++ knowledge among a community of
+        strong academics, students
+        |
+          and
+        strong professionals
+        |
+          on the Avalon Peninsula of Newfoundland.
+          We explore topics of interest to C++ programmers, including both
+        strong language features
+        |
+          and general
+        strong development practices
+        |
+          from a C++ perspective.
 
-      {{ range $index, $post := first 5 (where .Data.Pages "Section" "post") }}
-        hr
+      p
+        strong Atom feed:
+        a href="index.xml"
+          |
+            index.xml
 
-        {{ if eq $index 0 }}
-          {{ $post.Render "full" }}
-        {{ else }}
-          {{ $post.Render "summary" }}
+      p
+        strong Mailing list:
+        a href="mailto:listserv@lists.mun.ca?subject=subscribe%20avalon-cpp&body=subscribe%20avalon-cpp"
+          |
+            email "subscribe avalon-cpp" to listserv@lists.mun.ca
+
+      .recent-posts
+        {{ range $index, $post := first 5 (where .Data.Pages "Section" "post") }}
+          hr
+
+          {{ if eq $index 0 }}
+            {{ $post.Render "full" }}
+          {{ else }}
+            {{ $post.Render "summary" }}
+          {{ end }}
         {{ end }}
-      {{ end }}
 
     .col-md-4
       {{ partial "upcoming-events" . }}
