@@ -60,3 +60,5 @@ misses](http://danluu.com/3c-conflict/)
 
 * [Modules](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3347.pdf)
 * [Monads](http://bartoszmilewski.com/2014/02/26/c17-i-see-a-monad-in-your-future/)
+
+Please feel free to suggest more topics!
